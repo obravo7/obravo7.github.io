@@ -7,12 +7,12 @@ version: 2
 
 # Personal info
 name: Eric Rene Narciso Molina
-title: Machine Learning Engineer
+title: Machine Learning Engineer | Computer Vision Engineer
 email: narciso.molina.eric@gmail.com
 # email_title: Email (Email title override)
-phone: Your phone number (optional)
+phone: I have one. No, you can't have it. Okay, you can have it.
 # phone_title: Phone (Phone title override)
-website: Your website (eg. https://google.com)(optional)
+# website: Your website (eg. https://google.com)(optional)
 # website_title: Web (Website title override)
 
 # Dark Mode (true/false/never)
@@ -78,26 +78,60 @@ content:
   - title: Experience
     layout: list
     content:
-      - layout: left 
+      - layout: top-left
         title: 株式会社Pluszero
         sub_title: Machine Learning Engineer
         caption: August 2019 - December 2021
         link: https://plus-zero.co.jp/
-        quote: >
-          Short description of the company (optional)
+        quote: >  # short description of job 
+
         description: | # this will include new lines to allow paragraphs
-          Description of role
+          ## **Responsibilities**
+          
+          #### Algorithm research and implementation: 
+          Investigate the latest advances in relevant fields using PyTorch or Tensorflow deep learning frameworks. Analyze, process, and create
+          data pipelines. Examples include:
+            - Point cloud Segmentation. Conversion of point cloud LiDAR coordinate system to corresponding camera coordinate system (using celebrated camera’s).
+            - Generative adversarial networks (GANs) for manipulation of image features (using non facial objects). Creation of custom dataset using Selenium based web scrappers. Created a web application that allowed users to interact with image features.
+            - Instance and Semantic Segmentation of X-band radar images for object detection and object tracking.
+            - Utilized Natural Language Processing (NLP) algorithms for sentence/word vectorization. Use sentence embeddings as a way of comparing sentence similarity.
+          
+          #### Deployment and Maintenance
+          Deploy models into production using several web technologies such as AWS and GCP. Deployment done using REST API with web frameworks such as Celery/Flask, Django, and AWS with Docker. Debug, maintain, and update any issues that may arise with regards to the back-end
+
+  - title:
+    layout: list
+    content:
+      - layout: top-left
+        title: Shanghai Ubiquitious Navigation Technology
+        sub_title: Machine Learning Research Intern
+        caption: September 2018 - March 2017
+        quote: > # short description of job
+        link: http://ubinavi.com.cn/
+        description: |
+           ## **Satellite Segmentation Research and Implementation**: 
+           Research and implementation of several deep learning based methods for segmentation using Keras with Tensorflow backend.
+           The role also included: 
+          
+             - Creation of custom satellite dataset was created using OpenStreetMap and Pythons LabelMe.
+             - Implementation of baseline segmentation algorithms, such as K-Means, and Suport Vector Machines
+             - Research and application of Fully Connected Networks (FCN's) for segmentation. Done with Tensorflow (Keras).
+          
+           ## **Hyperspectral Image Analysis**: 
+              Given hyperspectral image data, I was tasked with finding the contents of chloraphyll inside a river. This was done by researching algorithms that identified chlorapyll based on the reflectivity of water, and then taking samples from the river in question.
+
   - title: Education
     layout: list
     content:
-      - layout: top-right
-        title: Institution name
-        sub_title: Qualifications (eg. BA Performing Arts)
-        caption: Date Range (eg. 2016 - 2019)
+      - layout: left
+        title: Shanghai Jiao Tong University
+        sub_title: M.S in Electronic and Communication Engineering
+        caption: Sept 2017 - July 2019
         quote: >
           Short institution or course description (optional)
         description: | # this will include new lines to allow paragraphs
-          Description of qualification
+          Thesis: Machine learning techniques for Segmentation and Change Detection of Synthetic Aperture Radar
+
   - title: A Little More About Me
     layout: text
     content: | # this will include new lines to allow paragraphs
