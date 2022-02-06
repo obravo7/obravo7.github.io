@@ -10,7 +10,7 @@ name: Eric Rene Narciso Molina
 title: Machine Learning Engineer | Computer Vision Engineer
 email: narciso.molina.eric@gmail.com
 # email_title: Email (Email title override)
-phone: I have one. No, you can't have it. Okay, you can have it.
+phone: Inquire. 
 # phone_title: Phone (Phone title override)
 # website: Your website (eg. https://google.com)(optional)
 # website_title: Web (Website title override)
@@ -128,16 +128,34 @@ content:
         sub_title: M.S in Electronic and Communication Engineering
         caption: Sept 2017 - July 2019
         quote: >
-          Short institution or course description (optional)
+
         description: | # this will include new lines to allow paragraphs
-          Thesis: Machine learning techniques for Segmentation and Change Detection of Synthetic Aperture Radar
+          **Thesis**: Machine learning techniques for Segmentation and Change Detection of Synthetic Aperture Radar
+          
+          ## **Achievements and Awards**
+          First author in IEEE conference paper related to satellite image semantic segmentation, 
+          published at IEEE International Conference on Multimedia and ExpoICME 2019.
+          
+          [Paper Link.](https://ieeexplore.ieee.org/document/8794903)
+
+  - title:
+    layout: list
+    content:
+      - layout: left
+        title: Farmingdale State College
+        sub_title: Bachelors of Science in Applied Mathematics
+        caption: Aug 2009 - July 2013
+        quote: >
+
+        description: | # this will include new lines to allow paragraphs
+          **Thesis**: Time frequency analysis for brain response to color using ECG waves
+    
 
   - title: A Little More About Me
     layout: text
     content: | # this will include new lines to allow paragraphs
-      This is where you can write a little more about yourself. You could title this section **Interests** and include some of your other interests.
-
-      Or you could title it **Skills** and write a bit more about things that make you more desirable, like *leadership* or *teamwork*
+      **Skills**
+      TODO. 
 
 # Footer
 footer_show_references: true
