@@ -20,13 +20,13 @@ darkmode: true
 
 # Social links
 # twitter_username: jekyllrb
-github_username:  obravo7
-stackoverflow_username: "00000001"
+github_username:  https://github.com/obravo7
+# stackoverflow_username: "00000001"
 # dribbble_username: jekyll
 # facebook_username: jekyll
 # flickr_username: jekyll
 # instagram_username: jekyll
-linkedin_username: Eric Rene Narciso Molina
+linkedin_username: https://www.linkedin.com/in/eric-narciso-molina-313446178/
 # xing_username: jekyll
 # pinterest_username: jekyll
 # youtube_username: jekyll
@@ -50,7 +50,7 @@ additional_links:
 
 # About Section
 # about_title: About Me (Use this to override about section title)
-about_profile_image: Directory of profile image (eg. images/avatar.jpeg)
+about_profile_image: images/avatar.jpeg
 about_content: | # this will include new lines to allow paragraphs
   Machine Learning Engineer with three years of experience working in both Japan and China. 
 
@@ -78,11 +78,11 @@ content:
   - title: Experience
     layout: list
     content:
-      - layout: right
-        title: Company name
-        sub_title: Job title
-        caption: Date Range (eg. November 2016 - present)
-        link: Link to company (optional)
+      - layout: left 
+        title: 株式会社Pluszero
+        sub_title: Machine Learning Engineer
+        caption: August 2019 - December 2021
+        link: https://plus-zero.co.jp/
         quote: >
           Short description of the company (optional)
         description: | # this will include new lines to allow paragraphs
